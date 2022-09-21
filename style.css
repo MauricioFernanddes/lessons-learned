@@ -2,10 +2,15 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+head {
+  position: fixed;
+}
+
 #cabecalho {
   top: 0;
   padding: 15px;
   background-color: gray;
+  
 }
 
 #titulo {
