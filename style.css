@@ -1,27 +1,21 @@
 body {
   background-color: rgb(253, 251, 251);
 }
-
+*{
+  margin: 0;
+}
 header {
   position: fixed;
-  margin: 0;
-  padding: 0;
+  width: 100%;
 }
-
 #cabecalho {
   top: 0;
   padding: 15px;
-  background-color: gray;
-  
+  background-color: gray;  
 }
-
 #titulo {
   text-align: center;
 }
-
-
-
-
 #rodape {
   padding: 10px;
   background-color: grey;
@@ -29,4 +23,14 @@ header {
 }
 table, th, td {
   border:2px solid black; 
-} 
+}
+.lado-esquerdo {
+  width: 66%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.lado-direito {
+  width: 30%;
+  display: inline-block;
+}
